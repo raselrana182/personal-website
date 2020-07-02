@@ -1,0 +1,122 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+h1{
+    font-size: 40px;
+    padding-top: 20px;
+}
+h2{
+    font-size: 30px;
+    padding-top: 20px;
+}
+.highlight{
+    color: lightcoral;
+}
+section{
+    height: 900px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+.half-width{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 60px;
+    margin-top: 40px;
+    
+}
+.top-banner{
+    background-image: url("images/header-bg.png");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+    
+}
+.link-button{
+    text-decoration: none;
+    /*background-image: linear-gradient(180deg,lightsalmon, tomato);*/
+    background-color: #ec4f8f;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    position: absolute;
+}
+.link-button:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+    transition: .5s;
+}
+.biography{
+    background-image: url("images/biography-bg.png");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+    
+}
+.lw-position{
+    text-align: center;
+    font-size: 30px;
+    color: gray;
+    margin-top: -20px;
+    
+}
+.latest-work{
+    background-image: url("images/latest-work-bg.png");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+img{
+    width: 70%;
+    padding-top: 50px;
+}
+.img-position img{
+    width: 25%;
+    float: left;
+    display: block;
+    margin: 0px 45px;
+    padding-left: 20px;
+}
+.footer{
+    text-align: center;
+    background-image: url("images/footer-bg.png");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.design{
+    color: gray;
+    text-align: center;
+}
+.footer-body{
+    margin-top: -100px;
+}
+.email{
+    text-decoration: none;
+    background-color: #ec4f8f;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    margin: 50px 400px 250px 400px;
+}
+.email:hover{
+    background-color: cadetblue;
+    transition: .4s ease-in-out;
+}
+
+.footer-last{
+    color: grey;
+    text-align: center;
+    padding-top: 100px;
+}
+/*.half-width img{
+    width: 100%;
+}*/
